@@ -1,0 +1,221 @@
+configuration {
+    modi:                       "drun,window";
+    show-icons:                 false;
+    display-drun:               "󰀻";
+    display-window:             "";
+    
+    drun-display-format:        "{name}";
+    window-format:              "{c}";
+
+    disable-history:            false;
+
+    kb-accept-entry:            "Return";
+    kb-move-char-back:          "";
+    kb-move-char-forward:       "";
+    kb-mode-next:               "Right";
+    kb-mode-previous:           "Left";
+    click-to-exit:              true;
+}
+
+* {
+    font:                        "IntoneMono Nerd Font Medium 9";
+    background:                  #181818; 
+    background-alt:              #272E33;
+    foreground:                  #D3C6AA;
+    selected:                    #a7c080;
+    active:                      #2E3F34;
+    urgent:                      #D08261;
+}
+
+window {
+    transparency:                "real";
+    location:                    southwest;
+    anchor:                      southwest;
+    fullscreen:                  false;
+    
+    width:                       260px;
+    x-offset:                    5px;
+    y-offset:                    -5px;
+
+    enabled:                     true;
+    border-radius:               10px;
+    cursor:                      "default";
+    
+    background-color:            transparent;
+    border:                      0px;
+}
+
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    background-color:            @background;
+    orientation:                 vertical;
+    children:                    [ "inputbar", "mode-switcher", "listbox" ];
+    
+    border:                      2px;
+    border-radius:               10px;
+    border-color:                #83c092;
+}
+
+listbox {
+    spacing:                     9px;
+    padding:                     9px 18px 18px 18px;
+    background-color:            transparent;
+    orientation:                 vertical;
+    children:                    [ "message", "listview" ];
+}
+
+inputbar {
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     40px 20px; 
+    background-color:            transparent;
+    background-image:            url("background.jpg", width);
+    text-color:                  @foreground;
+    orientation:                 horizontal;
+    children:                    [ "textbox-prompt-colon", "entry" ];
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         " ";
+    padding:                     10px 11px;
+    border-radius:               100%;
+    background-color:            @background-alt;
+    text-color:                  inherit;
+}
+
+entry {
+    enabled:                     true;
+    expand:                      true; 
+    padding:                     10px 14px;
+    border-radius:               100%;
+    background-color:            @background-alt;
+    text-color:                  inherit;
+    cursor:                      text;
+    placeholder:                 "Search";
+    placeholder-color:           inherit;
+}
+
+mode-switcher{
+    enabled:                     true;
+    spacing:                     13px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    padding:                     9px 18px; 
+    justify-content:             center;
+}
+
+button {
+    width:                       40px;
+    padding:                     9px;
+    border-radius:               100%;
+    background-color:            @background-alt;
+    text-color:                  inherit;
+    cursor:                      pointer;
+}
+
+button selected {
+    background-image:            linear-gradient(to right, #a7c080, #d3c6aa);
+    text-color:                  #1E2326;
+    border:                      0px;
+}
+
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       7;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    
+    fixed-height:                false;
+    fixed-columns:               true;
+    
+    spacing:                     3px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      "default";
+}
+
+element {
+    enabled:                     true;
+    spacing:                     9px;
+    padding:                     7px;
+    border-radius:               15px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+
+element normal.normal {
+    background-color:            inherit;
+    text-color:                  inherit;
+}
+
+element normal.active {
+    background-color:            inherit;
+    text-color:                  inherit;
+}
+
+element normal.urgent {
+    background-color:            @urgent;
+    text-color:                  @foreground;
+}
+
+element selected.normal {
+    background-image:            linear-gradient(to right, #2E3F34, #3a4b40);
+    border:                      1px;
+    border-color:                #a7c08090;
+    text-color:                  #D3C6AA;
+}
+
+element selected.active {
+    background-image:            linear-gradient(to right, #2E3F34, #3a4b40);
+    border:                      1px;
+    border-color:                #a7c08090;
+    text-color:                  #D3C6AA;
+}
+
+element selected.urgent {
+    background-color:            @urgent;
+    text-color:                  @foreground;
+}
+
+element-icon {
+    background-color:            transparent;
+    text-color:                  inherit;
+    size:                        20px;
+    cursor:                      inherit;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+
+message {
+    background-color:            transparent;
+}
+
+textbox {
+    padding:                     10px;
+    border-radius:               100%;
+    background-color:            @background-alt;
+    text-color:                  @foreground;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+
+error-message {
+    padding:                     10px;
+    border-radius:               20px;
+    background-color:            @background;
+    text-color:                  @foreground;
+}

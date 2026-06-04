@@ -1,0 +1,6 @@
+require("plugins.themes")
+require("plugins.treesitter")
+require("plugins.lsp")
+require("plugins.completions")
+require("plugins.telescope")
+require("plugins.utils")
