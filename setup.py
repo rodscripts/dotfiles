@@ -88,6 +88,11 @@ os.system("git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si 
 for x in install_aur: os.system(f"yay -S {x} --noconfirm")
 for x in install_flatpak: os.system(f"flatpak install flathub {x} -y --noninteractive")
 
+# Enable ufw
+os.system("sudo systemctl enable ufw.service")
+os.system("sudo systemctl start ufw.service")
+os.system("sudo ufw enable")
+
 # Install NVM
 os.system("curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash")
 
