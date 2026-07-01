@@ -42,6 +42,8 @@ install = [
     "nvim",
 
     # Environment
+    "bspwm",
+    "sxhkd",
     "lightdm", 
     "lightdm-gtk-greeter",
     "picom", 
@@ -67,11 +69,6 @@ install = [
     "zathura-cb",
 ]
 
-install_aur = [
-    "bspwm-git", 
-    "sxhkd-git"
-]
-
 install_flatpak = [
     "com.obsproject.Studio",
 ]
@@ -84,8 +81,7 @@ for x in install: os.system(f"sudo pacman -S {x} --noconfirm")
 # Install YAY
 os.system("git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && cd ~/dotfiles && rm -rf yay")
 
-# Install aur and flatpak packages
-for x in install_aur: os.system(f"yay -S {x} --noconfirm")
+# Install flatpak packages
 for x in install_flatpak: os.system(f"flatpak install flathub {x} -y --noninteractive")
 
 # Enable ufw
