@@ -23,6 +23,8 @@ install = [
     "ripgrep", 
     "flatpak", 
     "ffmpeg", 
+    "ufw",
+    "gufw",
     "noto-fonts", 
     "noto-fonts-cjk", 
     "noto-fonts-emoji",
