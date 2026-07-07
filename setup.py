@@ -12,6 +12,7 @@ install = [
     "openssh",
     "bat",
     "tree", 
+    "btop",
     "nano", 
     "playerctl",
     "tumbler", 
@@ -40,6 +41,7 @@ install = [
     "python-setuptools", 
     "tree-sitter-cli",
     "nvim",
+    "rustup",
 
     # Environment
     "bspwm",
@@ -95,6 +97,9 @@ os.system("curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install
 # Install OhMyZsh
 os.system("sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" \"\" --unattended") # ohmyzsh
 
+# Rust
+os.system("rustup default stable")
+
 ## Lightdm
 os.system("sudo systemctl enable lightdm")
 
@@ -135,3 +140,12 @@ os.system("mkdir ~/Downloads ~/Documents ~/Pictures ~/Studies ~/Projects ~/OpenS
 
 # ZSH default shell
 os.system("chsh -s $(which zsh)")
+
+# KVM/QEMU/Virt-Manager
+os.system("sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned")
+os.system("sudo systemctl enable libvirtd.service")
+os.system("sudo systemctl enable --now tuned.service")
+os.system("sudo tuned-adm profile virtual-host")
+os.system("sudo usermod -aG libvirt $USER")
+os.system("sudo virsh net-autostart default")
+os.system("sudo virsh net-start default")
