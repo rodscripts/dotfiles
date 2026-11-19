@@ -1,0 +1,367 @@
+{
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "bookshelf view visible": false,
+  "color_palette": "dark",
+  "cover_grid_background": {
+    "dark": [
+      45,
+      45,
+      45
+    ],
+    "dark_texture": null,
+    "light": [
+      80,
+      80,
+      80
+    ],
+    "light_texture": null,
+    "migrated": true
+  },
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "dark_palette_name": "__current__",
+  "dark_palettes": {
+    "__current__": {
+      "Accent": "#7abc43",
+      "AlternateBase": "#272e33",
+      "Base": "#272e33",
+      "BrightText": "#e67e80",
+      "BrightText-disabled": "#e67e80",
+      "Button": "#272e33",
+      "ButtonText": "#d3c6aa",
+      "ButtonText-disabled": "#787878",
+      "Highlight": "#55aa7f",
+      "HighlightedText": "#ffffff",
+      "HighlightedText-disabled": "#787878",
+      "Link": "#7fbbb3",
+      "LinkVisited": "#d699b6",
+      "PlaceholderText": "#787878",
+      "PlaceholderText-disabled": "#787878",
+      "Text": "#d3c6aa",
+      "Text-disabled": "#787878",
+      "ToolTipBase": "#272e33",
+      "ToolTipText": "#d3c6aa",
+      "ToolTipText-disabled": "#d3c6aa",
+      "Window": "#272e33",
+      "WindowText": "#d3c6aa",
+      "WindowText-disabled": "#d3c6aa"
+    }
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 722,
+      "width": 1356,
+      "x": 5,
+      "y": 41
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 718,
+      "width": 1352,
+      "x": 7,
+      "y": 43
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 718,
+      "width": 1352,
+      "x": 7,
+      "y": 43
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAFAAAAKQAABVAAAAL6AAAABwAAACsAAAVOAAAC+AAAAAAAAAAABVYAAAAHAAAAKwAABU4AAAL4"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "JDZ",
+      "model": "",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-customize-palette-geometry": {
+    "frame_geometry": {
+      "height": 644,
+      "width": 830,
+      "x": 268,
+      "y": 62
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 640,
+      "width": 826,
+      "x": 270,
+      "y": 64
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 640,
+      "width": 826,
+      "x": 270,
+      "y": 64
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAEMAAAAPgAABEkAAALBAAABDgAAAEAAAARHAAACvwAAAAAAAAAABVYAAAEOAAAAQAAABEcAAAK/"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "JDZ",
+      "model": "",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 724,
+      "width": 934,
+      "x": 216,
+      "y": 22
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 218,
+      "y": 24
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 218,
+      "y": 24
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAADYAAAAFgAABH0AAALpAAAA2gAAABgAAAR7AAAC5wAAAAAAAAAABVYAAADaAAAAGAAABHsAAALn"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "JDZ",
+      "model": "",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/home/rod/Calibre Library": 6
+  },
+  "light_palette_name": "__current__",
+  "light_palettes": {
+    "__current__": {
+      "Accent": "#31bd5a",
+      "AlternateBase": "#272e33",
+      "Base": "#272e33",
+      "BrightText": "#e67e80",
+      "BrightText-disabled": "#e67e80",
+      "Button": "#272e33",
+      "ButtonText": "#d3c6aa",
+      "ButtonText-disabled": "#787878",
+      "Highlight": "#55aa7f",
+      "HighlightedText": "#ffffff",
+      "HighlightedText-disabled": "#787878",
+      "Link": "#7fbbb3",
+      "LinkVisited": "#d699b6",
+      "PlaceholderText": "#787878",
+      "PlaceholderText-disabled": "#787878",
+      "Text": "#d3c6aa",
+      "Text-disabled": "#787878",
+      "ToolTipBase": "#272e33",
+      "ToolTipText": "#d3c6aa",
+      "ToolTipText-disabled": "#d3c6aa",
+      "Window": "#272e33",
+      "WindowText": "#d3c6aa",
+      "WindowText-disabled": "#d3c6aa"
+    }
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23059866962305986,
+      "cover_browser_width": 0.3494704992435703,
+      "quick_view_height": 0.25609756097560976,
+      "tag_browser_width": 0.24962178517397882
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.29954614220877457,
+      "cover_browser_height": 0.28600823045267487,
+      "quick_view_height": 0.23765432098765432,
+      "tag_browser_width": 0.29954614220877457
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
+  },
+  "quick_start_guide_added": true,
+  "qv_open_at_shutdown": false,
+  "search bar visible": true,
+  "tag browser search box visible": false
+}

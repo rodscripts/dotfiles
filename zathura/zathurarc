@@ -1,0 +1,13 @@
+# Color scheme
+include everforest
+
+# Settings
+set page-padding 0
+set recolor false
+
+# Keymaps
+map i recolor
+map P zoom i
+map O zoom out
+map { scroll half-up
+map } scroll half-down

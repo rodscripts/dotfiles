@@ -11,7 +11,8 @@ files = [f for f in os.listdir(cwd) if f not in [
         ".gitignore", 
         "setup.py",
         "create_symlinks.py",
-        "fonts", 
+        "fonts",
+        "calibre",
         "bin", 
         "wallpaper.jpg", 
         "lightdm-gtk-greeter",
@@ -33,3 +34,5 @@ for f in files:
     else:
         os.system(f"rm -rf {config}/{f}")
         os.system(f"ln -s {cwd}/{f} {config}")
+
+os.system(f"cp {cwd}/calibre/gui.json ~/.config/calibre/")
